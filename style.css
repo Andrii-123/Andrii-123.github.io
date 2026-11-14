@@ -20,6 +20,7 @@
 
   --accent: #aeada3;        /* links + text accents on dark */
   --num: #aeada3;           /* highlighted numbers */
+  --sand-tile: #aeada3;      /* filled sand panels */
   --accent-tile: var(--steel);
   --btn-bg: var(--sand);
   --btn-text: var(--on-sand);
@@ -52,7 +53,8 @@
 
   --accent: #516284;        /* sand is too light for text on a light page */
   --num: #516284;
-  --accent-tile: var(--sand);
+  --sand-tile: #dddcd2;      /* lighter tint of the same sand for light mode */
+  --accent-tile: var(--sand-tile);
   --btn-bg: var(--steel);
   --btn-text: var(--on-steel);
   --btn-hover: #45546f;
@@ -374,15 +376,15 @@ img { max-width: 100%; display: block; }
   border-color: var(--steel);
 }
 .tile-sand {
-  --surface: var(--sand);
-  --border: rgba(0, 0, 0, 0.17);
+  --surface: var(--sand-tile);
+  --border: rgba(0, 0, 0, 0.14);
   --text: #26272b;
   --heading: #121214;
   --muted: rgba(27, 27, 31, 0.62);
   --accent: #121214;
   --num: #121214;
   --tag-bg: rgba(0, 0, 0, 0.05);
-  border-color: var(--sand);
+  border-color: var(--sand-tile);
 }
 .tile-steel ::selection, .tile-sand ::selection { background: var(--on-sand); color: var(--on-steel); }
 
