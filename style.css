@@ -557,7 +557,7 @@ img { max-width: 100%; display: block; }
   stroke-dashoffset: 100;
   transition: stroke-dashoffset 1.2s cubic-bezier(.2, .7, .2, 1) .2s;
 }
-.is-visible .ring-fill, html:not(.js) .ring-fill { stroke-dashoffset: 10; }
+.is-visible .ring-fill, html:not(.js) .ring-fill { stroke-dashoffset: 6; }
 .ring-inner { text-align: center; }
 .ring-num {
   display: block;
