@@ -19,7 +19,6 @@
   --on-sand: #1b1b1f;
 
   --accent: #aeada3;        /* links + text accents on dark */
-  --num: #aeada3;           /* highlighted numbers */
   --sand-tile: #aeada3;      /* filled sand panels */
   --accent-tile: var(--steel);
   --btn-bg: var(--sand);
@@ -52,7 +51,6 @@
   --muted: #6a6d74;
 
   --accent: #516284;        /* sand is too light for text on a light page */
-  --num: #516284;
   --sand-tile: #dddcd2;      /* lighter tint of the same sand for light mode */
   --accent-tile: var(--sand-tile);
   --btn-bg: var(--steel);
@@ -361,7 +359,6 @@ img { max-width: 100%; display: block; }
   --heading: #ffffff;
   --muted: rgba(242, 243, 245, 0.7);
   --accent: #ffffff;
-  --num: #ffffff;
   --tag-bg: rgba(255, 255, 255, 0.08);
   border-color: var(--steel);
 }
@@ -372,7 +369,6 @@ img { max-width: 100%; display: block; }
   --heading: #121214;
   --muted: rgba(27, 27, 31, 0.62);
   --accent: #121214;
-  --num: #121214;
   --tag-bg: rgba(0, 0, 0, 0.05);
   border-color: var(--sand-tile);
 }
@@ -452,7 +448,7 @@ img { max-width: 100%; display: block; }
   font-size: 0.9em;
   font-weight: 500;
   letter-spacing: -0.02em;
-  color: var(--num);
+  color: var(--heading);
   white-space: nowrap;
 }
 

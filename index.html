@@ -102,8 +102,8 @@
       <div class="projects-grid">
         <article class="card project tile-steel reveal">
           <div class="card-top"><a class="label client-link" href="https://www.npec.nl/" target="_blank" rel="noopener">NPEC<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><span class="label date">Nov 2025 – Jan 2026</span></div>
-          <h3 class="project-title">Autonomous Root Phenotyping Pipeline</h3>
-          <div class="metric"><span class="metric-num">87%</span><span class="label">/ F1 score</span></div>
+          <h3 class="project-title">Autonomous Root Inoculation Pipeline</h3>
+          <div class="metric"><span class="metric-num">87%</span><span class="label">/ F1 on root segmentation</span></div>
           <p class="project-desc">Built an automated system for detecting and measuring plant roots from images, combining computer vision with reinforcement learning to guide a simulated lab robot to each root tip.</p>
           <ul class="bullets">
             <li>Trained a U-Net segmentation model for root detection</li>
@@ -112,55 +112,62 @@
           </ul>
           <ul class="tags" aria-label="Tech stack"><li class="tag">Python</li><li class="tag">TensorFlow</li><li class="tag">OpenCV</li><li class="tag">Stable-Baselines3</li><li class="tag">Gymnasium</li><li class="tag">PyBullet</li></ul>
         </article>
-        <article class="card project reveal" style="--d:.08s">
-          <div class="card-top"><span class="label">Academic project</span><span class="label date">Apr 2026 – Jun 2026</span></div>
-          <h3 class="project-title">MLOps Pipeline for Root Tip Detection</h3>
-          <div class="metric"><span class="metric-num">5</span><span class="label">/ team led as Scrum Master</span></div>
-          <p class="project-desc">Extended the NPEC work into an end-to-end automated ML pipeline covering data preprocessing, model training, evaluation, and model registration on Azure ML.</p>
+        <article class="card project tile-sand reveal" style="--d:.08s">
+          <div class="card-top"><a class="label client-link" href="https://move-intermodal.com/" target="_blank" rel="noopener">Move Intermodal<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><span class="label date">Sep 2026 – Present</span></div>
+          <h3 class="project-title">Dynamic Price Optimisation</h3>
+          <div class="metric"><span class="label status">In progress</span></div>
+          <p class="project-desc">Building a data-driven pricing optimisation system for a rail freight operator to improve margin performance, using historical shipment and operational data from Snowflake.</p>
           <ul class="bullets">
-            <li>Coordinated sprint planning and delivery for the team</li>
+            <li>Running anomaly analysis on pricing and shipment data to identify customer price-sensitivity patterns and turn them into recommendations for the commercial team</li>
+            <li>Developing an ingestion pipeline for news and external data (fuel, energy, market disruptions) to support demand forecasting and price adjustments</li>
+            <li>Working with Move’s commercial team to align the analysis with how pricing decisions are actually made</li>
+            <li>Leading a team of <span class="num">6</span> as Scrum Master, coordinating sprint planning and delivery</li>
+          </ul>
+          <ul class="tags" aria-label="Tech stack"><li class="tag">Python</li><li class="tag">SQL</li><li class="tag">Snowflake</li><li class="tag">Pandas</li></ul>
+        </article>
+        <article class="card project reveal">
+          <div class="card-top"><span class="label">Group project</span><span class="label date">Apr 2026 – Jun 2026</span></div>
+          <h3 class="project-title">MLOps Pipeline for Root Tip Detection</h3>
+          <div class="metric"><span class="metric-num">3</span><span class="label">/ deployment environments</span></div>
+          <p class="project-desc">Extended the NPEC work into an end-to-end automated ML pipeline covering data preprocessing, model training, evaluation, and model registration — deployed and continuously retrained across local, on-premise, and Azure ML environments.</p>
+          <ul class="bullets">
+            <li>Led a team of <span class="num">5</span> as Scrum Master, coordinating sprint planning and delivery</li>
             <li>Containerised with Docker, tracked with MLflow, served via FastAPI, CI/CD through GitHub Actions</li>
           </ul>
           <ul class="tags" aria-label="Tech stack"><li class="tag">Python</li><li class="tag">Azure ML</li><li class="tag">Docker</li><li class="tag">MLflow</li><li class="tag">FastAPI</li><li class="tag">GitHub Actions</li></ul>
-        </article>
-        <article class="card project reveal">
-          <div class="card-top"><a class="label client-link" href="https://gebaren.nl/wapperkids/informatie" target="_blank" rel="noopener">Wapperkids<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><span class="label date">Jan 2026</span></div>
-          <h3 class="project-title">Dutch Sign Language Recognition</h3>
-          <div class="metric"><span class="metric-num">96.7%</span><span class="label">/ accuracy</span></div>
-          <p class="project-desc">Built a real-time fingerspelling recognition system for Dutch Sign Language (NGT) using hand landmark detection.</p>
-          <ul class="bullets">
-            <li>Designed a dual motion detection system to classify frames as static or dynamic</li>
-            <li>Includes an interactive alphabet quiz with live camera recognition</li>
-          </ul>
-          <ul class="tags" aria-label="Tech stack"><li class="tag">Python</li><li class="tag">MediaPipe</li><li class="tag">OpenCV</li><li class="tag">Scikit-Learn</li></ul><a class="label project-link" href="https://github.com/txoof/fingerspell" target="_blank" rel="noopener">View repository<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
         </article>
         <article class="card project reveal" style="--d:.08s">
           <div class="card-top"><a class="label client-link" href="https://www.contentintelligence.nl/" target="_blank" rel="noopener">Content Intelligence Agency<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><span class="label date">Sep 2025 – Nov 2025</span></div>
           <h3 class="project-title">Ukrainian Video Emotion Classification</h3>
           <div class="metric"><span class="metric-num">550K+</span><span class="label">/ samples curated</span></div>
-          <p class="project-desc">Built a pipeline for emotion classification of Ukrainian-language video content.</p>
+          <p class="project-desc">Built an end-to-end emotion classification pipeline for a media analytics company, assessing the emotional profile of TV show episodes to support content recommendations.</p>
           <ul class="bullets">
-            <li>Curated and preprocessed the training dataset</li>
-            <li>Integrated a multilingual translation model into the data processing and inference pipelines</li>
+            <li>Curated and preprocessed the Ukrainian-language training dataset</li>
+            <li>Integrated a multilingual translation model from Hugging Face into the data processing and inference pipeline</li>
+            <li>Delivered insights into content performance that the client could use to improve their shows</li>
           </ul>
           <ul class="tags" aria-label="Tech stack"><li class="tag">Python</li><li class="tag">PyTorch</li><li class="tag">Hugging Face Transformers</li><li class="tag">Pandas</li></ul>
         </article>
         <article class="card project reveal">
           <div class="card-top"><span class="label">Academic research</span><span class="label date">Feb 2026 – Apr 2026</span></div>
           <h3 class="project-title">Overlapping Roots Segmentation Research</h3>
-          <div class="metric"><span class="metric-num">+9.4%</span><span class="label">/ over baseline</span></div>
-          <p class="project-desc">Developed a hybrid segmentation system for plant roots that overlap in images, where standard segmentation struggles to separate them.</p>
+          <div class="metric"><span class="metric-num">+9.4%</span><span class="label">/ over baseline segmentation</span></div>
+          <p class="project-desc">Developed a proof-of-concept segmentation approach that separates overlapping plant roots from a single image, whereas current methods need a time series of images and track each root as it grows.</p>
           <ul class="bullets">
             <li>Validated with statistical hypothesis testing — confirmed statistically significant</li>
           </ul>
           <ul class="tags" aria-label="Tech stack"><li class="tag">Python</li><li class="tag">NumPy</li><li class="tag">Pandas</li><li class="tag">SciPy</li></ul>
         </article>
-        <article class="card project tile-sand reveal" style="--d:.08s">
-          <div class="card-top"><a class="label client-link" href="https://move-intermodal.com/" target="_blank" rel="noopener">Move Intermodal<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><span class="label date">Sep 2026 – Present</span></div>
-          <h3 class="project-title">Dynamic Price Optimisation</h3>
-          <div class="metric"><span class="label status">In progress</span></div>
-          <p class="project-desc">Building a pricing optimisation system for a rail freight operator, using historical shipment data from Snowflake to support data-driven pricing decisions.</p>
-          <ul class="tags" aria-label="Tech stack"><li class="tag">Python</li><li class="tag">SQL</li><li class="tag">Snowflake</li></ul>
+        <article class="card project reveal" style="--d:.08s">
+          <div class="card-top"><a class="label client-link" href="https://gebaren.nl/wapperkids/informatie" target="_blank" rel="noopener">Wapperkids<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><span class="label date">Jan 2026</span></div>
+          <h3 class="project-title">Dutch Sign Language Recognition</h3>
+          <div class="metric"><span class="metric-num">96.7%</span><span class="label">/ motion classification accuracy</span></div>
+          <p class="project-desc">Built a real-time fingerspelling recognition system for Dutch Sign Language (NGT) using hand landmark detection.</p>
+          <ul class="bullets">
+            <li>Designed a dual motion detection system to classify frames as static or dynamic</li>
+            <li>Built an interactive alphabet quiz with live camera recognition</li>
+          </ul>
+          <ul class="tags" aria-label="Tech stack"><li class="tag">Python</li><li class="tag">MediaPipe</li><li class="tag">OpenCV</li><li class="tag">Scikit-Learn</li></ul><a class="label project-link" href="https://github.com/txoof/fingerspell" target="_blank" rel="noopener">View repository<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
         </article>
       </div>
     </div>
